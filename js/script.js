@@ -1,5 +1,5 @@
 
-const apiKey = "92df452d63msh3d8477258784235p1be85cjsn878ce55989bf";
+const apiKey = "f7474e87e6mshf7835e47731f498p1f27d1jsnb3b06e0d7ac9";
 const apiHost = "exercisedb.p.rapidapi.com";
 const apiUrl = "https://exercisedb.p.rapidapi.com/exercises";
 
@@ -8,7 +8,7 @@ async function fetchExercises() {
   const response = await fetch(apiUrl, {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": "92df452d63msh3d8477258784235p1be85cjsn878ce55989bf",
+      "X-RapidAPI-Key": "f7474e87e6mshf7835e47731f498p1f27d1jsnb3b06e0d7ac9",
       "X-RapidAPI-Host": "exercisedb.p.rapidapi.com",
     },
   });
@@ -284,7 +284,7 @@ function fetchExerciseData() {
   // Replace 'YOUR_API_KEY' with your actual RapidAPI key
   fetch('https://exercisedb.p.rapidapi.com/exercises', {
     headers: {
-      'X-RapidAPI-Key': '92df452d63msh3d8477258784235p1be85cjsn878ce55989bf',
+      'X-RapidAPI-Key': 'f7474e87e6mshf7835e47731f498p1f27d1jsnb3b06e0d7ac9',
     },
   })
     .then((response) => response.json())
