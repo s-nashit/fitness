@@ -260,7 +260,7 @@ function displayPagination(exercises) {
 }
 
 
-// Update the displayPage function
+// Update the displayPage function p
 function displayPage(pageNumber) {
   currentPage = pageNumber;
 
