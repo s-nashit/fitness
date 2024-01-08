@@ -284,7 +284,7 @@ function fetchExerciseData() {
   // Replace 'YOUR_API_KEY' with your actual RapidAPI key
   fetch('https://exercisedb.p.rapidapi.com/exercises', {
     headers: {
-      'X-RapidAPI-Key': 'dda25a0db9msh23c2be3cd3778d6p17ea31jsn742136c66ecf',
+      'X-RapidAPI-Key': '92df452d63msh3d8477258784235p1be85cjsn878ce55989bf',
     },
   })
     .then((response) => response.json())
