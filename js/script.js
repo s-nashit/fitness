@@ -1,7 +1,8 @@
 
 const apiKey = "e16c60c28emshc3d80d7af75604cp1377c2jsnd4d10c95cc40";
-const apiHost = "exercisedb.p.rapidapi.com";
-const apiUrl = "https://exercisedb.p.rapidapi.com/exercises";
+
+const apiHost = "exerciseapi3.p.rapidapi.com";
+const apiUrl = "https://exerciseapi3.p.rapidapi.com/exercise/name/";
 
 // Function to fetch exercise data from API
 async function fetchExercises() {
@@ -9,7 +10,7 @@ async function fetchExercises() {
     method: "GET",
     headers: {
       "X-RapidAPI-Key": "e16c60c28emshc3d80d7af75604cp1377c2jsnd4d10c95cc40",
-      "X-RapidAPI-Host": "exercisedb.p.rapidapi.com",
+      "X-RapidAPI-Host": "exerciseapi3.p.rapidapi.co",
     },
   });
 
