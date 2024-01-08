@@ -1,5 +1,5 @@
 
-const apiKey = "dda25a0db9msh23c2be3cd3778d6p17ea31jsn742136c66ecf";
+const apiKey = "92df452d63msh3d8477258784235p1be85cjsn878ce55989bf";
 const apiHost = "exercisedb.p.rapidapi.com";
 const apiUrl = "https://exercisedb.p.rapidapi.com/exercises";
 
@@ -8,7 +8,7 @@ async function fetchExercises() {
   const response = await fetch(apiUrl, {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": "dda25a0db9msh23c2be3cd3778d6p17ea31jsn742136c66ecf",
+      "X-RapidAPI-Key": "92df452d63msh3d8477258784235p1be85cjsn878ce55989bf",
       "X-RapidAPI-Host": "exercisedb.p.rapidapi.com",
     },
   });
